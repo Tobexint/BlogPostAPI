@@ -1,9 +1,9 @@
-## RESTful API for a Blogging Platform
+# RESTful API for a Blogging Platform
 
-# Task Description: 
+## Task Description: 
 Create a RESTful API for a blogging platform where users can create, read, update, and delete blog posts. The API should also support user authentication and authorization.
 
-# Tasks deliverables: 
+## Tasks deliverables: 
 
 ## User Authentication and Authorization:
 Implement user registration and login functionality using JWT authentication.
