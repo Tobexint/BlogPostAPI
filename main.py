@@ -79,7 +79,7 @@ def create_post():
     db.session.commit()
     return jsonify({'message':'Post created successfully!'}), 201
 
-  @app.route('/api/posts/<int:post_id>', methods=['GET'])
+@app.route('/api/posts/<int:post_id>', methods=['GET'])
 @jwt_required()
 def get_post(post_id):
     post = BlogPost.query.get(post_id)
